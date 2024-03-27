@@ -11,7 +11,7 @@ export default function Page() {
                     </p>
                 </div>
                 <p className="absolute bottom-0 right-0 px-8 py-12 text-base font-mono text-white/20 text-right uppercase">
-                    println!("Hello, world!");
+                    println!(&quot;Hello, world!&quot;);
                     <br />
                     &copy; 2024 Zackry Rosli
                 </p>
