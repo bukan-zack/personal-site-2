@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .grid-bg::before {
-	--line: hsla(0, 0%, 95%, 0.116);
+	--line: hsla(0, 0%, 95%, 0.22);
 	--size: 50px;
 	content: "";
 	height: 100%;

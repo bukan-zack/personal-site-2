@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
@@ -15,7 +14,7 @@ export default function Layout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${GeistSans.variable} ${GeistMono.variable} bg-[#0C0C0C] font-sans md:text-xl`}>
+            <body className={`${GeistMono.variable} bg-[#0C0C0C] font-mono md:text-xl`}>
                 {children}
             </body>
         </html>
